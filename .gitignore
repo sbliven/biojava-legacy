@@ -1,0 +1,7 @@
+.project
+.classpath
+.settings
+.svn
+target
+test-output
+bin

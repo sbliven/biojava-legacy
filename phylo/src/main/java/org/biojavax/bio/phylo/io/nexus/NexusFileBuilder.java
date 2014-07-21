@@ -55,6 +55,8 @@ public class NexusFileBuilder extends NexusFileListener.Abstract {
 				new DataBlockBuilder()));
 		this.setBlockParser(DistancesBlock.DISTANCES_BLOCK,
 				new DistancesBlockParser(new DistancesBlockBuilder()));
+		this.setBlockParser(MrBayesBlock.MRBAYES_BLOCK, 
+				new MrBayesBlockParser(new MrBayesBlockBuilder()));
 	}
 
 	protected void blockEnded(final NexusBlockParser blockParser) {

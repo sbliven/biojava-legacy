@@ -198,20 +198,5 @@ public class TreesBlockTest extends TestCase {
         topNode = node.getTopNode();
     }
 
-
-    // creates a suite
-    public static Test suite()
-    {
-        TestSuite suite = new TestSuite(TreesBlockTest.class);
-
-        return suite;
-    }
-
-    // harness for tests
-    public static void main(String [] args)
-    {
-        junit.textui.TestRunner.run(suite());
-    }
-
 }
 
